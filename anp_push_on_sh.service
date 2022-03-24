@@ -1,0 +1,12 @@
+[Unit]
+Description=Syncing remote notes commit 
+DefaultDependencies=no
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/anp/bn.sh
+TimeoutStartSec=0
+
+[Install]
+WantedBy=shutdown.target
