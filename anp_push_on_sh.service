@@ -5,6 +5,7 @@ Before=shutdown.target
 
 [Service]
 Type=oneshot
+RemainAfterExit=yest
 ExecStart=/usr/local/bin/anp/bn.sh
 TimeoutStartSec=0
 

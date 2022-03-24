@@ -15,5 +15,5 @@ sudo cp anp_pull_on_st.service /etc/systemd/system/
 systemctl daemon-reload
 systemctl enable anp_push_on_sh.service
 systemctl enable anp_pull_on_st.service
-systemctl start anp_push_on_sh.service
-systemctl start anp_pull_on_st.service
+# systemctl start anp_push_on_sh.service
+# systemctl start anp_pull_on_st.service
