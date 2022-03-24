@@ -1,4 +1,7 @@
 #!/bin/bash
+until ping -c1 google.com; do sleep 1; done;
+
+echo "connected"
 
 cd $(dirname "$0")
 

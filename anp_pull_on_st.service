@@ -4,7 +4,7 @@ Description=Run script at startup after network becomes reachable
 [Service]
 Type=simple
 RemainAfterExit=yes
-ExecStart=/usr/local/bin/anp/sp.sh
+ExecStart=/bin/sh -c '/usr/local/bin/anp/sp.sh'
 TimeoutStartSec=0
 
 [Install]
