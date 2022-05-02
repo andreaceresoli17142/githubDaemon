@@ -13,6 +13,8 @@ cd $USER_HOME/Documents/markdown
 
 sudo git pull origin master
 
+sudo chown -R andrea .
+
 # /usr/local/bin/anp/gitp.sh -f
 echo "succ"
 # i3-msg `exec i3-nagbar -twarning -m "successfully pushed notes"`
